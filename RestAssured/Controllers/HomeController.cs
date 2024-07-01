@@ -18,8 +18,8 @@ namespace RestAssured.Controllers
 
         public IActionResult Index()
         {
-            var product = _context.Products.ToList();
-            return View(product);
+            //var product = _context.Products.ToList();
+            return View(/*product*/);
         }
 
         public IActionResult Privacy()
